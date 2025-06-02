@@ -10,7 +10,7 @@ export default function Hero() {
             <span id="cursor" class="cursor"></span>
           </div>
         </h2>
-        <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+        <p class="text-lg md:text-xl mx-auto mb-">
           Java Engineer focused on performance, reliability, and getting things shipped.
         </p>
       </div>

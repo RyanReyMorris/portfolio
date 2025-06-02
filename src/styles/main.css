@@ -11,6 +11,10 @@
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
 body {
   scroll-behavior: smooth;
   background: var(--background);
@@ -69,47 +73,47 @@ body {
 
 .typing-container {
   position: relative;
-  width: 100%; /* Убрана фиксированная ширина */
-  max-width: 40rem; /* Для больших экранов */
-  height: auto; /* Адаптивная высота */
+  width: 100%;
+  max-width: 40rem;
+  height: 3rem;
   text-align: center;
-  overflow: visible; /* Убрано скрытие переполнения */
+  overflow: visible;
 }
 
 .typing-text {
   display: inline-block;
   font-size: 2.5rem;
   line-height: 3rem;
-  white-space: nowrap; /* По умолчанию без переноса */
+  white-space: nowrap;
 }
 
 @media (max-width: 640px) {
   .typing-container {
-    max-width: 90%; /* Ограничение ширины */
-    padding: 0 10px; /* Отступы для предотвращения обрезки */
+    height: auto;
+    max-width: 90%;
+    padding: 0 10px;
   }
 
   .typing-text {
-    font-size: 1.25rem; /* Меньший шрифт для мобильных */
+    font-size: 1.25rem;
     line-height: 1.75rem;
-    white-space: normal; /* Перенос текста на мобильных */
-    word-break: break-word; /* Перенос слов */
+    white-space: normal;
+    word-break: break-word;
   }
 
   .cursor {
-    height: 1.25rem; /* Уменьшенный курсор */
+    height: 1.25rem !important;
   }
 }
 
-
-
 .cursor {
+  margin-top: 5px;
   margin-left: 2px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 2px;
-  height: 2.2rem;
+  height: 2.1rem;
   background-color: var(--secondary);
   animation: blink 0.7s infinite;
 }
