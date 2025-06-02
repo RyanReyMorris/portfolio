@@ -1,3 +1,5 @@
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import './styles/main.css';
 import App from './App.js';
 import { initTypingEffect } from './scripts/typingEffect.js';
