@@ -69,19 +69,39 @@ body {
 
 .typing-container {
   position: relative;
-  width: 100%;
-  max-width: 40rem;
-  height: 3rem;
+  width: 100%; /* Убрана фиксированная ширина */
+  max-width: 40rem; /* Для больших экранов */
+  height: auto; /* Адаптивная высота */
   text-align: center;
-  overflow: hidden;
+  overflow: visible; /* Убрано скрытие переполнения */
 }
 
 .typing-text {
   display: inline-block;
   font-size: 2.5rem;
   line-height: 3rem;
-  white-space: nowrap;
+  white-space: nowrap; /* По умолчанию без переноса */
 }
+
+@media (max-width: 640px) {
+  .typing-container {
+    max-width: 90%; /* Ограничение ширины */
+    padding: 0 10px; /* Отступы для предотвращения обрезки */
+  }
+
+  .typing-text {
+    font-size: 1.25rem; /* Меньший шрифт для мобильных */
+    line-height: 1.75rem;
+    white-space: normal; /* Перенос текста на мобильных */
+    word-break: break-word; /* Перенос слов */
+  }
+
+  .cursor {
+    height: 1.25rem; /* Уменьшенный курсор */
+  }
+}
+
+
 
 .cursor {
   margin-left: 2px;
