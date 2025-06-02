@@ -130,7 +130,7 @@
           <a href="https://linkedin.com/in/egor-iakimov" class="text-xl text-secondary" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
           <a href="https://www.instagram.com/thecozypoesy" class="text-xl text-secondary" title="Instagram"><i class="fab fa-instagram"></i></a>
           <a href="https://github.com/RyanReyMorris" class="text-xl text-secondary" title="GitHub"><i class="fab fa-github"></i></a>
-          <a href="/resume.pdf" target="_blank" class="text-xl text-secondary" title="Full Resume"><i class="fas fa-file-alt"></i></a>
+          <a href="/portfolio/resume.pdf" target="_blank" class="text-xl text-secondary" title="Full Resume"><i class="fas fa-file-alt"></i></a>
         </div>
       </div>
     </section>
