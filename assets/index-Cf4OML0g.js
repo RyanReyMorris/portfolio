@@ -9,7 +9,7 @@
             <span id="cursor" class="cursor"></span>
           </div>
         </h2>
-        <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+        <p class="text-lg md:text-xl mx-auto mb-">
           Java Engineer focused on performance, reliability, and getting things shipped.
         </p>
       </div>
@@ -61,7 +61,7 @@
         </div>
       </div>
     </section>
-  `}function x(){return`
+  `}function f(){return`
     <section id="projects" class="py-16 px-4 bg-accent relative z-10">
       <div class="max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Projects</h2>
@@ -89,7 +89,7 @@
         </div>
       </div>
     </section>
-  `}function f(){return`
+  `}function x(){return`
     <section id="skills" class="py-16 px-4 bg-background relative z-10">
       <div class="max-w-4xl mx-auto">
         <h2 class="text-2xl font-bold text-secondary mb-8 text-center">Skills</h2>
@@ -146,8 +146,8 @@
       ${p()}
       ${m()}
       ${u()}
-      ${x()}
       ${f()}
+      ${x()}
       ${g()}
       ${h()}
       <a href="#contact" class="contact-button">
