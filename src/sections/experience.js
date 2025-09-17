@@ -16,7 +16,7 @@ export default function Experience() {
           </a>
           <a href="https://softline.ru/" target="_blank" class="block relative timeline-item card">
             <h3 class="text-lg font-semibold">Software Engineer</h3>
-            <p class="text-secondary text-sm">Softline | Nov 2021 - May 2024</p>
+            <p class="text-secondary text-sm">Softline | Oct 2021 - May 2024</p>
             <ul class="list-disc pl-5 mt-2 text-sm">
               <li>Increased document processing speed by 300%, scaling imports from 2M to 8M monthly.</li>
               <li>Reduced downtime by 15% with Prometheus and Grafana monitoring.</li>

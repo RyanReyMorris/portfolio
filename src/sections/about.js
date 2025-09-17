@@ -6,7 +6,7 @@ export default function About() {
           <div class="card">
             <h3 class="text-xl font-semibold text-secondary mb-2">Who I Am</h3>
             <p class="text-base">
-              I'm a Java Software Engineer with 3+ years of hands-on experience designing backend architectures and full-stack solutions. My focus is on building high-performance services — from monolith optimizations to greenfield microservices — that scale under real-world load and stay maintainable over time.
+              I'm a Java Software Engineer with 4+ years of hands-on experience designing backend architectures and full-stack solutions. My focus is on building high-performance services — from monolith optimizations to greenfield microservices — that scale under real-world load and stay maintainable over time.
             </p>
           </div>
           <div class="card">
