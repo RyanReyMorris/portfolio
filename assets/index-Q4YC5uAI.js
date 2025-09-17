@@ -21,7 +21,7 @@
           <div class="card">
             <h3 class="text-xl font-semibold text-secondary mb-2">Who I Am</h3>
             <p class="text-base">
-              I'm a Java Software Engineer with 3+ years of hands-on experience designing backend architectures and full-stack solutions. My focus is on building high-performance services — from monolith optimizations to greenfield microservices — that scale under real-world load and stay maintainable over time.
+              I'm a Java Software Engineer with 4+ years of hands-on experience designing backend architectures and full-stack solutions. My focus is on building high-performance services — from monolith optimizations to greenfield microservices — that scale under real-world load and stay maintainable over time.
             </p>
           </div>
           <div class="card">
@@ -50,7 +50,7 @@
           </a>
           <a href="https://softline.ru/" target="_blank" class="block relative timeline-item card">
             <h3 class="text-lg font-semibold">Software Engineer</h3>
-            <p class="text-secondary text-sm">Softline | Nov 2021 - May 2024</p>
+            <p class="text-secondary text-sm">Softline | Oct 2021 - May 2024</p>
             <ul class="list-disc pl-5 mt-2 text-sm">
               <li>Increased document processing speed by 300%, scaling imports from 2M to 8M monthly.</li>
               <li>Reduced downtime by 15% with Prometheus and Grafana monitoring.</li>
