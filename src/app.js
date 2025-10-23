@@ -9,7 +9,7 @@ import Footer from './sections/footer.js';
 export default function App() {
     return `
     <div class="background-particles">
-      ${Array.from({ length: 10 }, (_, i) => `<div class="particle"></div>`).join('')}
+      ${Array.from({ length: 20 }, (_, i) => `<div class="particle"></div>`).join('')}
     </div>
     <main>
       ${Hero()}
