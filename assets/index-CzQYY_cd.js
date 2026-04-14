@@ -1,4 +1,4 @@
-(function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))i(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const o of t.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&i(o)}).observe(document,{childList:!0,subtree:!0});function n(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function i(e){if(e.ep)return;e.ep=!0;const t=n(e);fetch(e.href,t)}})();function p(){return`
+(function(){const a=document.createElement("link").relList;if(a&&a.supports&&a.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const o of t.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&n(o)}).observe(document,{childList:!0,subtree:!0});function i(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function n(e){if(e.ep)return;e.ep=!0;const t=i(e);fetch(e.href,t)}})();function p(){return`
     <section id="hero" class="hero">
       ${Array.from({length:15},(s,a)=>'<div class="star"></div>').join("")}
       <div class="text-center relative z-10">
@@ -138,10 +138,10 @@
         <h2 class="text-2xl font-bold text-secondary mb-8">Contact</h2>
         <p class="text-base mb-6">Interested in collaborating? Reach out via email or LinkedIn.</p>
         <div class="flex justify-center space-x-6">
-          <a href="mailto:ryanreymorris@gmail.com" class="text-xl text-secondary" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="mailto:iamegoriakimov@gmail.com" class="text-xl text-secondary" title="Email"><i class="fas fa-envelope"></i></a>
           <a href="https://linkedin.com/in/egor-iakimov" class="text-xl text-secondary" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
           <a href="https://www.instagram.com/thecozypoesy" class="text-xl text-secondary" title="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="https://github.com/RyanReyMorris" class="text-xl text-secondary" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/EgorIakimov" class="text-xl text-secondary" title="GitHub"><i class="fab fa-github"></i></a>
           <a href="/resume.pdf" target="_blank" class="text-xl text-secondary" title="Full Resume"><i class="fas fa-file-alt"></i></a>
         </div>
       </div>
@@ -150,7 +150,7 @@
     <footer class="py-6 text-center bg-background text-text relative z-10">
       <p>Crafted with Ctrl+Z and caffeine — Egor Iakimov, 2025</p>
     </footer>
-  `}function y(){return`
+  `}function b(){return`
     <div class="background-particles">
       ${Array.from({length:20},(s,a)=>'<div class="particle"></div>').join("")}
     </div>
@@ -166,4 +166,4 @@
         <i class="fas fa-envelope"></i> 
       </a>
     </main>
-  `}const d=["Java, Spring, and sanity","Pragmatic. Consistent. Curious","Backend with a business sense"];let l=0,r=0,c=!1;function b(){const s=document.getElementById("typing-text"),a=document.getElementById("cursor");function n(){const i=d[l];s.textContent=i.substring(0,r);const e=s.offsetWidth,o=(s.parentElement.offsetWidth-e)/2+e;if(a.style.left=`${o}px`,c)if(r>0)r--;else{c=!1,l=(l+1)%d.length,setTimeout(n,500);return}else if(r<i.length)r++;else{c=!0,setTimeout(n,1500);return}setTimeout(n,c?30:50)}n()}document.getElementById("app").innerHTML=y();b();document.addEventListener("mousemove",s=>{document.body.style.setProperty("--x",s.clientX+"px"),document.body.style.setProperty("--y",s.clientY+"px")});
+  `}const d=["Java, Spring, and sanity","Pragmatic. Consistent. Curious","Backend with a business sense"];let l=0,r=0,c=!1;function y(){const s=document.getElementById("typing-text"),a=document.getElementById("cursor");function i(){const n=d[l];s.textContent=n.substring(0,r);const e=s.offsetWidth,o=(s.parentElement.offsetWidth-e)/2+e;if(a.style.left=`${o}px`,c)if(r>0)r--;else{c=!1,l=(l+1)%d.length,setTimeout(i,500);return}else if(r<n.length)r++;else{c=!0,setTimeout(i,1500);return}setTimeout(i,c?30:50)}i()}document.getElementById("app").innerHTML=b();y();document.addEventListener("mousemove",s=>{document.body.style.setProperty("--x",s.clientX+"px"),document.body.style.setProperty("--y",s.clientY+"px")});
