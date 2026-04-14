@@ -8,4 +8,4 @@
 
 ## Reporting a Vulnerability
 
-Contact: ryanreymorris@gmail.com
+Contact: iamegoriakimov@gmail.com

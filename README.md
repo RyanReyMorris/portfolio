@@ -1,11 +1,11 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/ryanreymorris/portfolio/master/public/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/egoriakimov/portfolio/master/public/logo.png" width="100" />
 </div>
 <h1 align="center">
-  ryanreymorris.tech - v1
+  egoriakimov.com - v1
 </h1>
 <p align="center">
-First version of my <a href="https://portfolio.ryanreymorris.tech" >portfolio site</a>
+First version of my <a href="https://portfolio.egoriakimov.com" >portfolio site</a>
 </p>
 
 
@@ -17,7 +17,7 @@ First version of my <a href="https://portfolio.ryanreymorris.tech" >portfolio si
 Can be found in [RELEASE_NOTES](RELEASE_NOTES.md).
 
 ## Authors
-* Egor Yakimov - [eyakimov](https://github.com/RyanReyMorris)
+* Egor Iakimov - [eiakimov](https://github.com/EgorIakimov)
 
 ## Code of Conduct
 Please, follow [Code of Conduct](CODE_OF_CONDUCT.md) page.
