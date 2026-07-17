@@ -1,4 +1,4 @@
-const phrases = ["Java, Spring, and sanity", "Pragmatic. Consistent. Curious", "Backend with a business sense"];
+const phrases = ["Backend meets frontend", "Pragmatic. Consistent. Curious", "Shipping features end to end"];
 let phraseIndex = 0;
 let charIndex = 0;
 let isDeleting = false;

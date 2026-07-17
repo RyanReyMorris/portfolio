@@ -11,7 +11,7 @@ export default function Hero() {
           </div>
         </h2>
         <p class="text-lg md:text-xl mx-auto mb-8">
-          Java Engineer focused on performance, reliability, and getting things shipped.
+          Full-Stack Software Engineer building reliable backends and clean UIs, end to end.
         </p>
       </div>
       <div class="resume-section">

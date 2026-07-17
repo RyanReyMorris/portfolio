@@ -6,13 +6,13 @@ export default function About() {
           <div class="card">
             <h3 class="text-xl font-semibold text-secondary mb-2">Who I Am</h3>
             <p class="text-base">
-              I'm a Java Software Engineer with 4+ years of hands-on experience designing backend architectures and full-stack solutions. My focus is on building high-performance services — from monolith optimizations to greenfield microservices — that scale under real-world load and stay maintainable over time.
+              I'm a Full-Stack Software Engineer with 4+ years of experience pairing Java and Spring Boot backends with modern Angular and TypeScript frontends. I like owning features end to end, from monolith optimizations to greenfield microservices that scale under real-world load and stay maintainable over time.
             </p>
           </div>
           <div class="card">
             <h3 class="text-xl font-semibold text-secondary mb-2">What I Do</h3>
             <p class="text-base">
-              I optimize workflows, enhance system performance, and develop robust solutions for financial and document management sectors, using tools like Spring Boot, Kafka, and Angular.
+              I design microservices, event-driven architectures, and REST APIs across insurance and FinTech systems, and I build AI-powered internal tooling that measurably shortens developer ramp-up time. My toolkit centers on Spring Boot, Kafka, and Angular.
             </p>
           </div>
         </div>
